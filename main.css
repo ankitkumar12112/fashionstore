@@ -1,0 +1,26 @@
+.rahul{ background-color: cornflowerblue;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .home ul a button{ max-width: 33%; }
+    h1{font-family: 'Original Surfer', cursive;}
+    .home ul li a{font-family: 'Original Surfer', cursive; }
+    
+    .noob{ position: relative;
+        overflow: hidden;
+    font-family: 'Baloo Chettan 2', cursive;}
+    
+    
+        .noob button{ background-color: grey;
+        border-radius: 4px;}
+       .noob p{ font-weight:300px;}
+    
+    .second{ height: 4000px;}
+    
+    .card button{background-color: grey;
+        border-radius: 4px;}
+       .noob p{ font-weight:300px;}
+       .second button{background-color: grey;
+        border-radius: 4px;}
+       .noob p{ font-weight:300px;} 

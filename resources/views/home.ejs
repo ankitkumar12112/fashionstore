@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion store</title>
+    <!-- <link rel="stylesheet" type="text/css" href="my website/css/main.css"/>
+<link rel="stylesheet" type="text/css" href="tailwind.css"/> -->
+
+ <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="../../tailwind.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../../my website/img/">  
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+
+
+ <style>   
+
+.rahul{ background-color: cornflowerblue;
+font-size: larger;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home ul a button{ max-width: 33%; }
+h1{font-family: 'Original Surfer', cursive;}
+.home ul li a{font-family: 'Original Surfer', cursive; }
+
+.noob{ position: relative;
+    overflow: hidden;
+font-family: 'Baloo Chettan 2', cursive;}
+
+
+    .noob button{ background-color: grey;
+    border-radius: 4px;}
+   .noob p{ font-weight:300px;}
+
+.second{ height: 4000px;}
+
+.card button{background-color: grey;
+    border-radius: 4px;}
+   .noob p{ font-weight:300px;}
+   .second button{background-color: grey;
+    border-radius: 4px;}
+   .noob p{ font-weight:300px;} 
+</style> 
+</head>
+
+
+<body>
+  <script src="../../my website/js/app.js"></script>
+    <nav class="bg-black h-20  ">
+
+        <div class="home flex  ">
+            
+            <h1 class="w-3/4 pt-6 ml-6 text-xl text-white">urban virsa fashion</h1>
+            
+    
+        <ul class=" flex p-4 text-white " ><li class="p-4" ><a href="/">menu</a></li>
+            <li class="p-4"><a href="/register">register</a></li>
+            <li class="p-4"><a href="/login">login</a></li>
+            <li class=" pb-10"><a href="/cart"> <button> <img class="rounded-2xl" src="resources/views/img/img.png.19.jpg" alt="logo"></button></a></li>
+.
+        </div>
+    </nav>
+
+
+
+<section class="second">
+
+    <h1 class="noob  align-centre text-centre ml-96 text-6xl">welcome to our store</h1>
+
+   <div class="pt-8  grid grid-cols-5 gap-y-3 ">
+       <% pizzas.forEach(function(urbanvirsa){%>
+       
+<div >
+    <img class="h-56 w-56 ml-6 shadow-2xl rounded-2xl" src="./img/ urbanvirsa.image %>" alt="img">
+    <span class="ml-28  text-2xl"><%= urbanvirsa.size %></span>
+    <div class="flex items-centre ml-16">
+    <p class="text-lg font-medium  pr-6 ">₹<%=  urbanvirsa.price %></p>
+<button class=" add-to-cart text-lg rounded text-white w-14">+ add</button> 
+    </div>
+</div>
+
+<%})%>
+
+
+    
+</div>
+
+
+        
+</section>
+</body>
+</html>
